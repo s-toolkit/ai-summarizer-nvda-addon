@@ -11,8 +11,6 @@ The AI Summarizer NVDA Add-on enables users to upload files in supported formats
   - Video: MP4, MKV
   - Audio: MP3, WAV
   - Images: PNG, JPEG, JPG, ICO
-  - Documents: DOCX, PDF, XLSX, TXT
-  - Code: PY, HTML, CSS, JS, JAVA, CPP, C, SH
 - **Customizable Prompts**: Users can specify how they want the AI to describe or summarize their content.
 - **Responsive UI**: Dialogs are designed with accessibility in mind, featuring keyboard shortcuts and clear navigation.
 - **Clipboard and Export Options**: Copy summaries to the clipboard or export them as text files.
@@ -20,10 +18,10 @@ The AI Summarizer NVDA Add-on enables users to upload files in supported formats
 - **Threaded Processing**: Summarization runs in a separate thread to keep the UI responsive.
 
 ## Key Features
-- **AI-Powered Summarization**: Uses the Google Gemini API for high-quality content summarization.
+- **AI-Powered Summarization**: introduces AISummarizer v2.5 for high-quality content summarization.
 - **Accessible Interface**: Fully compatible with NVDA, with keyboard gestures and screen reader feedback.
-- **Error Handling**: Robust error messages for unsupported file formats, network issues, or API failures.
-- **Regeneration Capability**: Allows users to regenerate summaries without re-uploading files.
+**transcription**: now v2.5 can transcribe the audios and videos.
+**text extraction** v2.5 can extract the text from an image.
 
 ## Gestures
 - **NVDA+Alt+N**: Opens the AI Summarizer dialog.
@@ -56,6 +54,24 @@ The AI Summarizer NVDA Add-on enables users to upload files in supported formats
 
 5. **Learn More**:
    - Access the about dialog via the tools menu or `Alt+B` in the main dialog to view add-on details and subscribe to the YouTube channel.
+
+### update info
+updated to v2.5.
+
+### change logs
+**video files support**
+now this add-on can summarize video files.
+previous version had issues which i have fixed all.
+**follow up questions**
+now you can ask AI follow up questions.
+for example: if you have generated a summary, you can ask the AI the questions again.
+**transcription support**
+now, AISummarizer v2.5 pro introduces a transcription feature among all of you.
+upload a supported file and ask the AI to transcribe the audio or video.
+**image text extraction**
+now, v2.5 introduces image text extraction with AI.
+upload a supported extention of image and ask the AI to extract the text.
+many more features are comming soon.
 
 ## Note
 - An active internet connection is required for summarization, as the add-on relies on the Google Gemini API.
